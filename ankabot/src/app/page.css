@@ -1,0 +1,14 @@
+.ligne {
+    height: 1px;
+    width: 90%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lignecenter {
+    display: flex;
+    justify-content: center;
+    margin: 140px;
+}

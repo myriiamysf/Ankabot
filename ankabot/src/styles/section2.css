@@ -1,0 +1,35 @@
+.div1 {
+    display: grid;
+    grid-template-columns: 35% 25% 25% 15%;
+    margin-bottom: 50px;
+}
+
+.div2 {
+    display: grid;
+    grid-template-columns: 35% 25% 25% 15%;
+}
+
+.imagette {
+    height: 290px;
+    width: 290px;
+    display: grid;
+    grid-column-start: 2;
+}
+
+.imagettes {
+    height: 290px;
+    width: 290px;
+}
+
+.h22 {
+    display: grid;
+    grid-column-start: 2;
+}
+
+.titre1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 140px;
+    font-size: 3.5rem;
+}

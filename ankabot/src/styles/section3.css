@@ -1,0 +1,24 @@
+.tout {
+    display: grid;
+    grid-template-columns: 15% 20% 20% 20% 20%;
+    margin-bottom: 140px;
+}
+
+.personnea {
+    display: grid;
+    grid-column-start: 2;
+}
+
+.photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.titree {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 140px;
+}

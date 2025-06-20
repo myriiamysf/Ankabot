@@ -1,0 +1,79 @@
+/* Menu */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: #344D59;
+  color: white;
+  padding: 2rem 1rem;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-menu.open {
+  left: 0;
+}
+
+.side-menu ul {
+  list-style:disc;
+  padding: 5px;
+}
+
+.side-menu li {
+  margin: 1.5rem 0;
+  cursor: pointer;
+}
+
+/* Burger button */
+.menu-toggle {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  width: 30px;
+  height: 24px;
+  z-index: 1100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.bar {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform-origin: center;
+}
+
+.menu-toggle.open .top {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 10px;
+}
+
+.menu-toggle.open .middle {
+  opacity: 0;
+}
+
+.menu-toggle.open .bottom {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 10px;
+}
+
+.lignesubtile2 {
+    width: 1px;   
+    height: 200%; 
+    margin: 1rem auto;   
+    background-color: rgba(0, 0, 0, 0.349); 
+    margin-right: -17px;
+}
